@@ -1,0 +1,229 @@
+*{
+	/*This allows for the padding on items to smoosh down instead of reformatting the box*/
+	box-sizing: border-box;;
+}
+body{
+	font-family: 'Lato', sans-serif;
+	margin-top:40px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-bottom:0px;
+}
+
+
+/*navigationg menu*/
+nav{
+	text-align:center;
+	background-color:#6F4E37;
+	position: fixed;
+	top:0;
+	width:100%;
+	height:40px;
+	z-index: 101;
+}
+nav ul{
+	margin-top:0px;
+	margin-bottom:0px;
+	display:block;
+}
+ul li{
+	display:inline-block;
+	background-color:#6F4E37;
+	text-transform: uppercase;
+	padding:9px 15px;
+}
+nav a,
+nav a:visited,
+nav a :active,
+nav a:hover,
+nav a:focus{
+	text-decoration: none;
+	color: #ffffff;
+}
+/*.current{
+	background-color:#ff00ff;
+}*/
+.coffee-image{
+	padding: 4px 15px;
+}
+.coffee-image img{
+	height:30px;
+}
+#Hamburger{
+	position:fixed;
+	border:none;
+	background:transparent;
+	font-size:25px;
+	color:#ffffff;
+	top:0;
+	right:0;
+	display:none;
+}
+
+/*page data*/
+section{
+	min-height:600px;
+	padding-top: 40px;
+	margin-top: -40px;
+}
+/*home*/
+#Home{
+	margin-bottom: 150px;
+	min-height: auto;
+}
+.coffeemug{
+	width:100%;
+	height:auto;
+}
+/*bean section*/
+#Bean{
+	min-height:550px;
+	margin-bottom: 100px;
+	box-shadow: 1px 33px 34px #f2f2f2;
+}
+.beancircle{
+	border-radius: 50%;
+  	background-color:#ffffff;
+  	border:1px solid #000000;
+  	height:50px;
+  	width:50px;
+ 	position: relative;
+ 	margin-bottom: 50px;
+ 	transition: all .2s ease-in-out;
+}
+.beancircle:hover{
+	transform: scale(1.1);
+}
+.beancircle img{
+	height:40px;
+	width:40px;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.beancontainer img{
+	max-height:200px;
+	max-width:200px;
+}
+.beancontent{
+	margin-left:20px;
+	margin-bottom: 100px;
+}
+/*Espresso / Milk*/
+
+#Espresso{
+	background:#ffffff;
+	width: 100%;
+  	min-height: 1100px;
+  	text-align: center;
+}
+#Milk{
+	background:#ffffff;
+	width: 100%;
+  	min-height: 1100px;
+  	text-align: center;
+}
+.pourmilktxt{
+	padding-bottom:300px;
+}
+#coffeegrinds{
+	width:50%;
+	height:auto;
+}
+.contenttext{
+	font-size:25px;
+	padding: 0 0;
+  	margin: 0;
+  	height: 100%;
+}
+.coffeetext > div{
+	margin-top:300px;
+	margin-bottom:300px;
+	min-height: 50px;
+}
+.coffeetext > .pull-right{
+	margin-right: 10%;
+	margin-left: 10%;
+}
+.coffeetext > .pull-left{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+#mug{
+	width:40%;
+	height:auto;
+}
+#frothmilk{
+	width:30%;
+	height:auto;
+}
+#pourmilk{
+	width:50%;
+	height:auto;
+}
+.container{
+	background-color:#ffffff;
+}
+#Art{
+	margin-bottom:200px;
+}
+
+#Art h1{
+	color:#6F4E37;
+}
+#Art a{
+	width: 255px;
+	height: 255px;
+}
+#Art img{
+	padding: 15px 10px;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+footer{
+	width:100%;
+	height:40px;
+	text-align:center;
+	background-color:#6F4E37;
+	color:#ffffff;
+	font-size:10px;
+}
+.footerinfo{
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+	text-align: center;
+	width: 100%;
+}
+
+/*responsive*/
+@media (max-width:1200px){
+	#mug{
+		width:60%;
+		height:auto;
+	}
+}
+@media (max-width:768px){	
+	#Hamburger{
+		display:block;
+	}
+	nav ul {
+		display:none;
+		padding-left: 0px;
+	}
+	ul li{
+		display:block;
+	}
+	#coffeegrinds,
+	#mug,
+	#pourmilk{
+		width:80%;
+	}
+	#frothmilk{
+		width:70%;		
+	}
+}

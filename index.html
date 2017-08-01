@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+
+	</head>
+	<body>
+		<nav>
+			<button id="Hamburger">&#9776;</button>
+			<ul>
+			<!-- there is an issue with the nav where the li need to be in the same order as the content below it -->
+				<li class="coffee-image">
+					<a href="#Home">
+						<img src="images/steam.png" alt="steam-icon"/>
+					</a>
+				</li>
+
+				<li>
+					<a href="#Bean">
+						Bean
+					</a>
+				</li>
+				<li>
+					<a href="#Espresso">
+						Espresso
+					</a>
+				</li>
+				<li>
+					<a href="#Milk">
+						Milk
+					</a>
+				</li>
+				<li>
+					<a href="#Art">
+						Art
+					</a>
+				</li>
+			</ul>
+		</nav>
+		<section id="Home">
+			<img class="coffeemug" src="images/Coffee_Background.png" alt="coffee-mug"/>
+		</section>
+		<section id="Bean">
+			<div class="container">
+				<div class="col-sm-6 col-xs-12">
+					<div class="col-sm-offset-4 col-sm-2 col-xs-offset-3 col-xs-3">
+						<div class="beancircle" id="ArabicaBean">
+							<a href="#">
+								<img src="images/arabica_bean.png" alt="arabica-bean"/>
+							</a>
+						</div>
+						<div class="beancircle" id="EthiopianBean">
+							<a href="#">
+								<img src="images/ethiopian_bean.png" alt="ethiopian-bean"/>
+							</a>
+						</div>
+						<div class="beancircle" id="GuatemalanBean">
+							<a href="#">
+								<img src="images/guatemalan_bean.png" alt="guatemalan-bean"/>
+							</a>
+						</div>
+					</div>
+					<div class="col-sm-2 col-xs-2">
+						<div class="beancircle" id="BourbonBean">
+							<a href="#">
+								<img src="images/bourbon_bean.png" alt="bourbon-bean"/>
+							</a>
+						</div>
+						<div class="beancircle" id="ColumbianBean">
+							<a href="#">
+								<img src="images/columbian_bean.png" alt="columbian-bean"/>
+							</a>
+						</div>
+						<div class="beancircle" id="TypicaBean">
+							<a href="#">
+								<img src="images/typica_bean.png" alt="typica-bean"/>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-xs-12">
+					<div id="Arabica" class="beancontainer">
+						<img src="images/arabica_bean.png" alt="large-arabica-bean"/>
+						<br />
+						<div class="beancontent">
+							<h4>100% Arabica</h4>
+							<div>
+								This is a darkroast bean perfect for a good latte. It smells rich and spicy  with a hint of nuttyness. A combination of Columbian, Guatamala, and Sumatra are what make this bean one of the best quality beans producted in the world. Thhe bean has a gloossy coat that makes it look like it is sweating.
+							</div>
+						</div>
+					</div>
+					<div id="Bourbon" class="beancontainer">
+						<img src="images/bourbon_bean.png" alt="large-bourbon-bean"/>
+						<br />
+						<div class="beancontent">
+							<h4>Bourbon</h4>
+							<div>
+								The fragile plant can be found in Réunion [Bourbon], Rwanda, and Latin America. The bean produces a different flavor depending on where it comes from. The crisp acidity mixed with sweet caramel qualities is one of the most rounded and complex flavord of coffee.
+							</div>
+						</div>
+					</div>
+					<div id="Ethiopian" class="beancontainer">
+						<img src="images/ethiopian_bean.png" alt="large-ethiopian-bean"/>
+						<br />
+						<div class="beancontent">
+							<h4>Ethiopian</h4>
+							<div>
+								The varieties of Harar Ethipian coffee are one of the best qualities of beans. They have a strong earthy flavor with berry and chocolate, which is a distinctive mocha flavor. The acidity of the dark roast is why it it is refered to as a dry red wine flavor.
+							</div>
+						</div>
+					</div>
+					<div id="Columbian" class="beancontainer">
+						<img src="images/columbian_bean.png" alt="large-columbian-bean"/>
+						<br />
+						<div class="beancontent">
+							<h4>Columbian</h4>
+							<div>
+								This medium roast coffee has a smooth quality to it. It has a rich citrus like acidity to the flavor that makes this coffee one of the most eaily drinkable. This region is able to grow a lot of coffee because of the climate.
+							</div>
+						</div>
+					</div>
+					<div id="Guatemalan" class="beancontainer">
+						<img src="images/guatemalan_bean.png" alt="large-guatemalan-bean"/>
+						<br />
+						<div class="beancontent">
+							<h4>Guatemalan</h4>
+							<div>
+								The coffee is best known for its chocolaty flavor. It has sweet undertones of nutty ness in the full boddied drink. It produces a velvety flavor that is much desired in a rich coffee.
+							</div>
+						</div>
+					</div>
+					<div id="Typica" class="beancontainer">
+						<img src="images/typica_bean.png" alt="large-typica-bean"/>
+						<br />
+						<div class="beancontent">
+							<h4>Typica</h4>
+							<div>
+								This is the most common and oldest variety of coffee bean to be produced. It was originally grown in Yemeni, but is now produced world wide. Not many beans are produced from this plant, but the sweet flavor has had centuries of refinement.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="Espresso" class="contenttext">
+			<div class="coffeetext parallax-img-container">
+				<div class="pull-right">
+					Finely grind the coffee beans
+				</div>
+				<br clear="all"/>
+				<img id="coffeegrinds" src="images/grinds.png" alt="coffee-grings" class='parallax-move' data-ps-z-index="100" data-ps-speed="1" data-ps-vertical-position="1000" data-ps-horizontal-position="-50" />
+				<div class="pull-left">
+					Slow extraction (20-30 seconds) of coffee makes for a rich flavor
+				</div>
+				<br clear="all"/>
+				<div class="pull-left">
+					Turns from dark brown to a golden yellow color when ready
+				</div>
+				<br clear="all"/>
+				<img id="mug" src="images/mug.png" alt="mug" class="parallax-move" data-ps-z-index="100" data-ps-speed="0.5" data-ps-vertical-position="-400" data-ps-horizontal-position-right="5%"/>
+			</div>
+		</section>
+		<section id="Milk" class="contenttext">
+			<div class="coffeetext parallax-img-container">
+				<div class="pull-right">
+					Froth the milk with fine bubbles (best with whole milk)
+				</div>
+				<br clear="all"/>
+				<img id="frothmilk" class="parallax-move" src="images/milkfroth.png" alt="froth-milk" data-ps-z-index="100" data-ps-vertical-position="900" data-ps-horizontal-position="-10" data-ps-speed="1"/>
+				<br clear="all"/>
+				<div class="pull-left pourmilktxt">
+					Pour milk into espresso
+				</div>
+				<br clear="all"/>
+				<img id="pourmilk" class="parallax-move" src="images/milkpour.png" alt="pour-milk" data-ps-z-index="100" data-ps-vertical-position="0" data-ps-horizontal-position-right="10%" data-ps-speed="0.5"/>
+			</div>
+		</section>
+		<section id="Art">
+			<div class="container">
+				<h1>Art</h1>
+				<div>
+					<div class="col-lg-3 col-md-3 col-sm-12">
+						<a href="https://s-media-cache-ak0.pinimg.com/736x/e1/80/64/e180641f9f7c50aa0f56074d8a71b36e--italian-coffee-perfect-cup.jpg" data-fancybox="group" data-caption="Latte art design">
+							<img class="img-responsive" src="https://s-media-cache-ak0.pinimg.com/736x/e1/80/64/e180641f9f7c50aa0f56074d8a71b36e--italian-coffee-perfect-cup.jpg" alt="the-Perfect-Latte"/>
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-12">
+						<a href="http://www.imgonnabeyourfriend.org/wp-content/uploads/2015/09/the-Perfect-Latte.jpg" data-fancybox="group" data-caption="Latte art design">
+							<img class="img-responsive" src="http://www.imgonnabeyourfriend.org/wp-content/uploads/2015/09/the-Perfect-Latte.jpg" alt="art-design-Latte"/>
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-12">
+						<a href="https://s-media-cache-ak0.pinimg.com/736x/a5/8a/04/a58a04399f512801021a699c1afdad73--latte-art-photo-and-video.jpg" data-fancybox="group" data-caption="Lion latte art">
+							<img class="img-responsive" src="https://s-media-cache-ak0.pinimg.com/736x/a5/8a/04/a58a04399f512801021a699c1afdad73--latte-art-photo-and-video.jpg" alt="Lion-Latte"/>
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-12">
+						<a href="http://aws-cdn-01.shemazing.ie/wp-content/uploads/2015/09/tumblr_mawo2tni2b1qb3unao1_1280.jpg" data-fancybox="group" data-caption="Many lattes">
+							<img class="img-responsive" src="http://aws-cdn-01.shemazing.ie/wp-content/uploads/2015/09/tumblr_mawo2tni2b1qb3unao1_1280.jpg" alt="multiple-Lattes"/>
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-12">
+						<a href="https://exploregram.com/wp-content/uploads/2015/06/When-a-World-latte-art-champion-barista-makes-your-latte.-And-it-happens-to-be-a-Japanese-female.-A-.jpg" data-fancybox="group" data-caption="Rose Art">
+							<img class="img-responsive" src="https://exploregram.com/wp-content/uploads/2015/06/When-a-World-latte-art-champion-barista-makes-your-latte.-And-it-happens-to-be-a-Japanese-female.-A-.jpg" alt="rose-art-Latte"/>
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-12">
+						<a href="https://www.latteart.org/file/2016/03/latte_art_decoration-2.jpg" data-fancybox="group" data-caption="feather art">
+							<img class="img-responsive" src="https://www.latteart.org/file/2016/03/latte_art_decoration-2.jpg" alt="feather-Latte"/>
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-12">
+						<a href="https://cdn3.littlethings.com/app/uploads/2016/04/latte-2.jpg" data-fancybox="group" data-caption="Color latte art">
+							<img class="img-responsive" src="https://cdn3.littlethings.com/app/uploads/2016/04/latte-2.jpg" alt="color-Latte"/>
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-12">
+						<a href="http://scontent-sea1-1.cdninstagram.com/t51.2885-15/s480x480/e35/13398977_1601202113543784_533742946_n.jpg?ig_cache_key=MTI3OTgwMTQ3NDY4MzM2MDA3OQ%3D%3D.2" data-fancybox="group" data-caption="Gohan latte art">
+							<img class="img-responsive" src="http://scontent-sea1-1.cdninstagram.com/t51.2885-15/s480x480/e35/13398977_1601202113543784_533742946_n.jpg?ig_cache_key=MTI3OTgwMTQ3NDY4MzM2MDA3OQ%3D%3D.2" alt="Gohan-Latte"/>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer class="col-sm-12">
+			<div class="footerinfo">Copywright © 2017 by Victoria Erickson</div>
+		</footer>
+		<!--Javascript-->
+		<!-- <script
+			  src="https://code.jquery.com/jquery-3.2.1.js"
+			  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+			  crossorigin="anonymous"></script> -->
+		  <script src="js/jquery.js" type="text/javascript"></script>
+		  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		  <script src="js/jquery.nicescroll.min.js" type="text/javascript"></script>
+  		  <script src="js/parallaxImg.js" type="text/javascript"></script>
+		  <script src="js/jquery.fancybox.js"></script>
+		  <script src="js/jquery.nav.js"></script>
+		  <script type="text/javascript" src="js/main.js"></script>	
+	</body>
+</html>
